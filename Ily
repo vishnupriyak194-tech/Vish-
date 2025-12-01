@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scrapbook Website</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #ffeef8;
+    overflow-x: hidden;
+  }
+
+  .scrapbook {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://i.postimg.cc/G25g4V98/Your-paragraph-text-20251201-142736-0000.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  /* Pulsing, sexy link */
+  .letter-link {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    font-weight: 900;
+    background: linear-gradient(90deg, #ff4f89, #ff8fb1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 79, 137, 0.7);
+    text-decoration: none;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: translateX(-50%) scale(1);
+      text-shadow: 2px 2px 10px rgba(255, 79, 137, 0.7);
+    }
+    50% {
+      transform: translateX(-50%) scale(1.1);
+      text-shadow: 4px 4px 20px rgba(255, 79, 137, 1);
+    }
+    100% {
+      transform: translateX(-50%) scale(1);
+      text-shadow: 2px 2px 10px rgba(255, 79, 137, 0.7);
+    }
+  }
+
+  /* Overlay and Scrapbook-style letter */
+  #letterOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1500;
+  }
+
+  #letterPage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background: #ffe6f0;
+    border: 6px dashed #ffb6c1;
+    padding: 30px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 1.1em;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    border-radius: 20px;
+    z-index: 2000;
+  }
+
+  #letterPage h2 {
+    text-align: center;
+    color: #ff4f89;
+    margin-bottom: 20px;
+  }
+
+  #closeLetter {
+    display: block;
+    margin: 20px auto 0;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    background: #ff8fb1;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="scrapbook">
+  <a class="letter-link" id="openLetter">💌 Read My Love Letter ❤️</a>
+</div>
+
+<div id="letterOverlay">
+  <div id="letterPage">
+    <h2>💌 My Love Letter 💌</h2>
+    <p>
+I don’t even know how to start this without laughing, because every time I think about us, my brain keeps replaying that one legendary moment when we both randomly said “Kawachugi Ninja” at the exact same time and then laughed like two idiots who escaped from the same mental hospital.<br><br>
+
+That was the moment I knew:<br>
+Yep, this man is my soulmate.<br>
+Only my soulmate would say nonsense with me in perfect sync.<br><br>
+
+Honestly, that’s who we are —<br>
+two weird, chaotic, dramatic people who still somehow fit together like a perfect puzzle.<br><br>
+
+We make awkward jokes.<br>
+We laugh at things nobody else would laugh at.<br>
+We say the same nonsense words at the same time.<br>
+We break up like it’s a weekend hobby and then come crawling back like:<br>
+“Pyaar dosti hai… aur hamari dosti toh itni toxic cute hai ki hum door reh hi nahi sakte.”<br><br>
+
+But no matter how many times we act like the final episode of a TV serial, we still find our way back to each other.<br>
+Sometimes I think if Bollywood ever made a movie on us, the title would be:<br><br>
+
+<strong>“Hum Tum Aur 100 Breakups – Par Pyaar Phir Bhi Rahega”</strong><br><br>
+
+And the dialogues would be so us:<br><br>
+
+Me: “Main jaa rahi hoon.”<br>
+You: “Theek hai… par wapas aa jaana. Tumhare bina meri band baj jaati hai.”<br><br>
+
+Or<br>
+You: “Mujhse door rehne ka iraada rakhti ho?”<br>
+Me: “Arre, mujhe toh khud se bhi door rehna mushkil lagta hai, tumse kya hi door rahungi.”<br><br>
+
+Even after all the dramatics… the truth is, we understand each other like no one else.<br>
+We have that same-same vibe —<br>
+same reactions, same humor, same madness level, same heart.<br><br>
+
+You’re not just some partner.<br>
+You’re my comfort room.<br>
+My inside-joke person.<br>
+My “I’ll tell him everything first” person.<br>
+My “let’s make stupid jokes until our stomach hurts” person.<br>
+My strongest supporter.<br>
+My closest resemblance.<br><br>
+
+And I want you to know something for the rest of our lives:<br><br>
+
+I am always — ALWAYS —<br>
+your number one fan,<br>
+your number one supporter,<br>
+and your personal cheerleader who will scream your name louder than any Bollywood hero’s background music.<br><br>
+
+I’ll stand by you in every high and every low.<br>
+In every fight and every reunion.<br>
+In every joke — even the awkward ones.<br>
+Because even with all our chaos, all our breakups, and all our madness…<br><br>
+
+We still choose each other. Every. Single. Time.<br><br>
+
+And that’s what makes it real.<br>
+That’s what makes it <em>us</em>.<br><br>
+
+This life, next life, every life —<br>
+it’s you.<br>
+Always you.<br>
+Even if we break up 47 more times in between.
+    </p>
+    <button id="closeLetter">Close</button>
+  </div>
+</div>
+
+<!-- Invisible background audio -->
+<audio autoplay loop>
+  <source src="https://voca.ro/1g85qqB0O2rR" type="audio/mpeg">
+</audio>
+
+<script>
+  const openBtn = document.getElementById("openLetter");
+  const overlay = document.getElementById("letterOverlay");
+  const closeBtn = document.getElementById("closeLetter");
+
+  openBtn.addEventListener("click", () => overlay.style.display = "block");
+  closeBtn.addEventListener("click", () => overlay.style.display = "none");
+</script>
+
+</body>
+</html>
